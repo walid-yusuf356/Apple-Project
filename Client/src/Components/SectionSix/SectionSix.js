@@ -1,5 +1,6 @@
 import React from "react";
 import arcade from "../../commonResource/images/icons/arcade.png";
+import { FaGreaterThan } from "react-icons/fa6";
 
 function SectionSix() {
   return (
@@ -12,7 +13,6 @@ function SectionSix() {
               <div className="left-side-container">
                 <div className="top-logo-wrapper">
                   <div className="logo-wrapper">
-                    {/* Remove curly braces around 'arcade' */}
                     <img src={arcade} alt="arcade" />
                   </div>
                 </div>
@@ -23,11 +23,16 @@ function SectionSix() {
                   <ul>
                     <li>
                       <a href="/">
-                        Play now<sup>2</sup>
+                        Play now{" "}
+                        <sup>
+                          2 <FaGreaterThan />
+                        </sup>
                       </a>
                     </li>
                     <li>
-                      <a href="/">Learn about Apple Arcade</a>
+                      <a href="/">
+                        Learn about Apple Arcade <FaGreaterThan />{" "}
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -45,10 +50,14 @@ function SectionSix() {
                 <div className="links-wrapper">
                   <ul>
                     <li>
-                      <a href="/">Learn more</a>
+                      <a href="/">
+                        Learn more <FaGreaterThan />{" "}
+                      </a>
                     </li>
                     <li>
-                      <a href="/">Apply now</a>
+                      <a href="/">
+                        Apply now <FaGreaterThan />{" "}
+                      </a>
                     </li>
                   </ul>
                 </div>

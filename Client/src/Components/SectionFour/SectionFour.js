@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGreaterThan } from "react-icons/fa6";
 
 function SectionFour() {
   return (
@@ -20,10 +21,14 @@ function SectionFour() {
                 <div className="links-wrapper">
                   <ul>
                     <li>
-                      <a href="/">Learn more</a>
+                      <a href="/">
+                        Learn more <FaGreaterThan />
+                      </a>
                     </li>
                     <li>
-                      <a href="/">Apply now</a>
+                      <a href="/">
+                        Apply now <FaGreaterThan />
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -38,7 +43,7 @@ function SectionFour() {
                 <div className="links-wrapper white">
                   <ul>
                     <li>
-                      <a href="/">Watch the PSA</a>
+                      <a href="/">Watch the PSA <FaGreaterThan /></a>
                     </li>
                   </ul>
                 </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGreaterThan } from "react-icons/fa6";
 
 function SectionThree() {
   return (
@@ -6,7 +7,7 @@ function SectionThree() {
       {/* <!-- Third section starts here --> */}
       <section className="third-hightlight-wrapper">
         <div className="container">
-          <div className="title-wraper bold">iPhone 11 Pro</div>
+          <div className="title-wrapper bold">iPhone 11 Pro</div>
 
           <div className="description-wrapper">
             Pro cameras. Pro display. Pro performance.
@@ -19,10 +20,14 @@ function SectionThree() {
           <div className="links-wrapper">
             <ul>
               <li>
-                <a href="/">Learn more</a>
+                <a href="/">
+                  Learn more <FaGreaterThan />
+                </a>
               </li>
               <li>
-                <a href="/">Buy</a>
+                <a href="/">
+                  Buy <FaGreaterThan />
+                </a>
               </li>
             </ul>
           </div>

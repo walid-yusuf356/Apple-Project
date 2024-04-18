@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGreaterThan } from "react-icons/fa6";
 
 // Import your images
 import appleTVLogo from "../../commonResource/images/icons/apple-tv-logo.png";
@@ -25,7 +26,7 @@ function SectionFive() {
                 </div>
 
                 <div className="watch-more-wrapper">
-                  <a href="/">Watch now on the Apple TV App</a>
+                  <a href="/">Watch now on the Apple TV App <FaGreaterThan /> </a>
                 </div>
               </div>
             </div>
@@ -44,10 +45,14 @@ function SectionFive() {
                 <div className="links-wrapper">
                   <ul>
                     <li>
-                      <a href="/">Learn more</a>
+                      <a href="/">
+                        Learn more <FaGreaterThan />{" "}
+                      </a>
                     </li>
                     <li>
-                      <a href="/">Buy</a>
+                      <a href="/">
+                        Buy <FaGreaterThan />{" "}
+                      </a>
                     </li>
                   </ul>
                 </div>
